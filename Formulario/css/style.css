@@ -1,0 +1,66 @@
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img-nome
+{
+  position: absolute;
+  top: 33px;
+  left: 9px;
+}
+.img-data
+{
+  position: absolute;
+  bottom: 75px;
+  left: 9px;
+}
+.img-fem
+{
+  position: absolute;
+  bottom: 79px;
+  left: 26px;
+}
+.formulario
+{
+  width: 25%;
+  margin: auto;
+  position: relative;
+}
+fieldset ::placeholder
+{
+  font-style: italic;
+}
+fieldset legend
+{
+  font-weight: bold;
+}
+#nome
+{
+  display: block;
+  margin: 0% 4% 4% 6%;
+  padding: 10px;
+  width: 90%;
+  box-sizing: border-box;
+}
+#data
+{
+  display: inline-block;
+  margin-left: 6%;
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+}
+#sexo
+{
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+#btn
+{
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}

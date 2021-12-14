@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <form class="formulario" action="#" method="#">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+      <img src="img/nome.png" alt="Logotipo que indica campo para preencher o nome" class="img-none" height="20px"width="20px">
+      <input type="text" name="nome" id="nome" placeholder="Nome Completo" autfocus>
+      <img src="img/data.png" alt="Logotipo que indica campo para preencher data de nascimento" class="img-data"height="20px" width="20px">
+      <input type="date" name="data" id="data" id="data" min="1900-01-01">
+      <label>
+        <input type="radio" name="sexo" id="sexo" value="M">
+        <img src="img/masc.png" alt="Logotipo que indica campo para preencher sexo masculino" class="img-masc"height="18px" width="18px">
+      </label>
+      <label>
+        <input type="radio" name="sexo" id="sexo" value="F">
+        <img src="img/fem.png" alt="Logotipo que indica campo para preencher sexo feminino" class="img-fem"height="20px" width="20px">
+      </label>
+      <input type="submit" id="btn" value="Enviar">
+    </fieldset>
+  </form>
+</body>
+
+</html>
